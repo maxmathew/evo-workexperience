@@ -83,3 +83,11 @@ Route::get('/task4b', function () {
     return view('task4b');
 });
 
+Route::get('/onyourmarks', function () {
+    return view('onyourmarks');
+});
+
+Route::get('/thevintagezone', function () {
+    return view('thevintagezone');
+});
+
